@@ -1,0 +1,24 @@
+{
+  "name": "express-mysql-api",
+  "version": "1.0.0",
+  "description": "A simple API model using Express and MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanjoni/express-mysql-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lanjoni/express-mysql-api/issues"
+  },
+  "homepage": "https://github.com/lanjoni/express-mysql-api#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3"
+  }
+}
