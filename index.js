@@ -34,12 +34,12 @@ function execSQLQuery(sqlQry, res){
 
 // TRAZENDO SEUS DADOS!
 
-// sem parâmetros
+// sem parâmetros!
 app.get('/suarota', (req, res) => {
     execSQLQuery('SELECT * FROM SuaTabela', res);
 })
 
-// com parâmetros
+// com parâmetros!
 app.get('/suarota/:id?', (req, res) => {
     let filter = '';
     if(req.params.id) filter = ' WHERE ID=' + parseInt(req.params.id); // a variável filter é utilizada para filtrar sua pesquisa com uma cláusula (WHERE opcional)
